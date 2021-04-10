@@ -1,0 +1,120 @@
+﻿.modal-inner {
+    position: relative;
+}
+
+button {
+    padding: 130px;
+    background: #fff;
+    border: 0px solid #282828;
+    border-radius: 1px;
+    cursor: pointer;
+    display: inline-block;
+    
+
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    
+    
+}
+
+
+.modalArea {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modalBg {
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 30, 30, 0.9);
+}
+
+.modalWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 315px;
+    padding: 10px 30px;
+    background: #fff;
+    overflow: auto;
+}
+
+.is-open {
+    display: block;
+}
+
+@charset "UTF-8";
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+#main {
+    background-image: url(main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: auto;
+    height: 256pX;
+}
+#me {
+    background-image: url(me1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+#skill {
+    background-image: url(skill1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    position: absolute;
+    left: 650px;
+    top: 30px;
+}
+#conect {
+    background-image: url(conect1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    position: absolute;
+    left: 950px;
+    top: 30px;
+}
+
+.c {
+    background-image: url(c.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100pX;
+    left: 100px;
+    top: 100px;
+}
+.java {
+    background-image: url(java.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100pX;
+    left: 200px;
+}
+.python {
+    background-image: url(python.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100pX;
+}
