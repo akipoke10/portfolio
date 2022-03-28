@@ -1,4 +1,4 @@
-ï»¿.modal-inner {
+?»¿.modal-inner {
     position: relative;
 }
 
@@ -117,4 +117,18 @@ button {
     background-repeat: no-repeat;
     width: auto;
     height: 100pX;
+}
+.cs {
+    background-image: url(cs.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100pX;
+    
+}
+.unity {
+    background-image: url(unity.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100pX;
+    
 }
